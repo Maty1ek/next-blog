@@ -15,6 +15,7 @@ export default async function Home() {
   if (posts) {
     return (
       <div className="grid grid-cols-2 gap-6">
+        <h1>Posts</h1>
         {
           posts.map((post) => (
             <div key={post._id}>
